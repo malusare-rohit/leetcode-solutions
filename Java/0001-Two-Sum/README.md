@@ -2,6 +2,7 @@
 
 ## Topics
 - Array
+- HashMap
 
 ## Difficulty
 Easy
@@ -13,5 +14,12 @@ Array / Brute-Force Search
 
 Time: O(n²)
 
-Space: O(1)
+Space: O(N)
+
+### Solution 2
+HashMap
+
+Time: O(N)
+
+Space: O(N)
 
