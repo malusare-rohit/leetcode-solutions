@@ -1,4 +1,4 @@
-# 0001. Two Sum
+# 3345. Smallest-Divisible-Digit-Product-I
 
 ## Topics
 - Math
