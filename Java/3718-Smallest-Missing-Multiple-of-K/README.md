@@ -2,6 +2,7 @@
 
 ## Topics
 - Array
+- HashSet
 
 ## Difficulty
 Easy
@@ -25,4 +26,13 @@ Memory 44.49 MB Beats 99.08%
 Time: O(N) 
 
 Space: O(N)
+
+### Solution 3
+Runtime 0ms Beats 100.00%
+Memory 44.49 MB Beats 99.08%
+
+
+Time: O(N^2) 
+
+Space: O(1)
 
