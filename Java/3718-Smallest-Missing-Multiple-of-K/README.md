@@ -1,0 +1,19 @@
+# 3718. Smallest Missing Multiple of K
+
+## Topics
+- Array
+
+## Difficulty
+Easy
+
+## Solutions
+
+### Solution 1
+Runtime 6ms Beats 10.64%
+Memory 45.49 MB Beats 38.11%
+
+
+Time: O(N log N) 
+
+Space: O(1)
+
