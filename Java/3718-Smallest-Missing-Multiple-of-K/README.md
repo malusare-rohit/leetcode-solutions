@@ -18,11 +18,11 @@ Time: O(N log N)
 Space: O(1)
 
 ### Solution 2
-Runtime 2ms Beats 68.20%
-Memory 45.70 MB Beats 15.51%
+Runtime 1ms Beats 82.00%
+Memory 44.49 MB Beats 99.08%
 
 
-Time: O(N log N) 
+Time: O(N) 
 
-Space: O(1)
+Space: O(N)
 
