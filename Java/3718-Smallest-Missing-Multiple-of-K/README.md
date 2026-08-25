@@ -17,3 +17,12 @@ Time: O(N log N)
 
 Space: O(1)
 
+### Solution 2
+Runtime 2ms Beats 68.20%
+Memory 45.70 MB Beats 15.51%
+
+
+Time: O(N log N) 
+
+Space: O(1)
+
