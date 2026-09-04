@@ -17,3 +17,12 @@ Time: O(N)
 
 Space: O(N)
 
+### Solution 2
+Runtime 1ms Beats 99.79%
+Memory 46.21 MB Beats 70.85%
+
+
+Time: O(N*N) 
+
+Space: O(1)
+
