@@ -10,8 +10,8 @@ Hard
 
 ### Solution 1
 
-Runtime 4 ms Beats 18.63%
-Memory 52.24 MB Beats 33.69%
+Runtime 3 ms Beats 87.05%
+Memory 52.39 MB Beats 26.70%
 
 Time: O(N)
 
