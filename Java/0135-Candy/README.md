@@ -25,3 +25,17 @@ Memory 52.50 MB Beats 19.22%
 Time: O(N)
 
 Space: O(N)
+
+### Solution 3
+
+Runtime 2 ms Beats 99.87%
+Memory 51.93 MB Beats 48.97%
+
+Time: O(N)
+
+Space: O(1)
+
+Key Idea:
+Distribute candies by handling ascending and descending slopes separately to minimize total count.
+
+Approach : Greedy
