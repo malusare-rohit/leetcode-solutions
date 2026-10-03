@@ -1,4 +1,4 @@
-# 0151. Reverse Words in a String
+# 0006. Zigzag Conversion
 
 ## Topics
 - Array / Simulation
@@ -10,8 +10,8 @@ Medium
 
 ### Solution 1
 
-Runtime 11 ms Beats 13.85%
-Memory 47.36 MB Beats 10.81%
+Runtime 4 ms Beats 88.84%
+Memory 46.88 MB Beats 29.22%
 
 Time: O(N)
 

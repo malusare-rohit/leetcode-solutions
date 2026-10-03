@@ -5,24 +5,23 @@ class Solution {
             return s;
         }
 
-        Map<Integer, StringBuilder> map = new HashMap<>();
-        int rowNo = 1;
-        int l = s.length();
+        StringBuilder[] sb = new StringBuilder[numRows];
+        int rowNo = 0;
         boolean increment = true;
 
-        for(int i=0;i<l;i++){
-            if(map.containsKey(rowNo)){
-                map.put(rowNo, map.get(rowNo).append(s.charAt(i)));
-            }else{
-                map.put(rowNo, new StringBuilder());
-                map.put(rowNo, map.get(rowNo).append(s.charAt(i)));
-            }
+        for(int i=0;i<numRows;i++){
+            sb[i] = new StringBuilder();
+        }
 
-            if(rowNo==numRows){
+        for(int i=0;i<s.length();i++){
+
+            sb[rowNo].append(s.charAt(i));
+
+            if(rowNo==numRows-1){
                 increment=false;
             }
 
-            if(rowNo==1){
+            if(rowNo==0){
                 increment=true;
             }
             
@@ -31,10 +30,8 @@ class Solution {
 
         StringBuilder result = new StringBuilder();
 
-        for(int i=1;i<=numRows;i++){
-            if(map.get(i)!=null){
-                result.append(map.get(i));
-            }  
+        for(int i=0;i<numRows;i++){
+                result.append(sb[i]);
         }
 
         return result.toString();
